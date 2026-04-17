@@ -506,6 +506,18 @@
       gap: none;
       padding: 0px 20px;
       background: transparent;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transform: translateY(-10px);
+      will-change: max-height, opacity, transform;
+      transition: max-height 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out;
+    }
+
+    .accordion-item[open] .accordion-list {
+      max-height: 1400px;
+      opacity: 1;
+      transform: translateY(0);
     }
 
     .accordion-list .stack-item {
@@ -927,6 +939,10 @@
           <p>
             A current version of my CV can be downloaded here:
             <a href="#">Download CV</a>
+          </p>
+          <p>
+            Portuguese Lattes profile:
+            <a href="http://lattes.cnpq.br/2712997099346862" target="_blank" rel="noopener noreferrer">View my Lattes profile</a>
           </p>
         </div>
       </div>
