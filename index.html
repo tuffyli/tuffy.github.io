@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -438,7 +438,7 @@
 
     .accordion-item summary {
       cursor: pointer;
-      padding: 0;
+      padding: 6px 0;
       display: grid;
       grid-template-columns: 1fr auto;
       gap: 12px;
@@ -508,18 +508,16 @@
       padding: 0 20px;
       background: transparent;
       overflow: hidden;
-      max-height: 0;
+      height: 0;
       opacity: 0;
       transform: translateY(-10px);
-      will-change: max-height, opacity, transform;
-      transition: max-height 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out;
+      will-change: height, opacity, transform;
+      transition: height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
     }
 
     .accordion-item[open] .accordion-list {
-      max-height: 1400px;
       opacity: 1;
       transform: translateY(0);
-      transition: max-height 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out;
     }
 
     .accordion-list .stack-item {
@@ -648,18 +646,18 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <span class="eyebrow">My website</span>
+          <span class="eyebrow">Economics Research</span>
           <h1>Tuffy Licciardi Issa</h1>
           <p>
-            I am Tuffy Licciardi Issa, an economics student at FEA-USP interested in applied microeconomics, econometrics,
-             and development economics. My research focuses on crime, labor markets, and educational constraints in low- and
-              middle-income countries, with an emphasis on microeconomic analysis and policy evaluation. This website brings
-               together my research, teaching materials, curriculum vitae, and contact information.
+            I am Tuffy Licciardi Issa, an economics student at FEA-USP with interests in applied microeconomics, econometrics,
+            and development economics. My research focuses on crime, labor markets, and educational constraints in low- and
+            middle-income countries, with an emphasis on microeconomic analysis and policy evaluation. This website brings
+            together my research, teaching materials, curriculum vitae, and contact information.
           </p>
           <p>
-            My academic interests have been shaped by a multicultural background and a strong interest in combining economic theory,
-             empirical methods, and social policy analysis. I also care deeply about transparent and reproducible research, and I 
-             regularly share my workflows in R and LaTeX.
+            My academic interests have been shaped by a multicultural background and a strong interest in connecting economic theory,
+            empirical methods, and social policy analysis. I also care deeply about transparent and reproducible research, and I
+            regularly share my workflows in R and LaTeX.
           </p>
 
           <div class="hero-actions">
@@ -682,7 +680,7 @@
           <div class="mini-list">
             <div>
               <strong>Affiliation</strong>
-              University of São Paulo (FEA-USP)
+              University of S&atilde;o Paulo (FEA-USP)
             </div>
             <div>
               <strong>Fields</strong>
@@ -690,7 +688,7 @@
             </div>
             <div>
               <strong>Location</strong>
-              São Paulo, Brazil
+              S&atilde;o Paulo, Brazil
             </div>
           </div>
         </aside>
@@ -705,9 +703,9 @@
       <div class="container">
         <h2 class="section-title">About</h2>
         <p class="section-intro">
-          I am an aspiring economist motivated by questions about opportunity, inequality, and the institutional forces that shape
-           individual outcomes. My interest in economics grew from a broader curiosity about how people respond to constraints, incentives,
-            and public policy. Over time, this led me to applied research at the intersection of labor, crime, education, and development.
+          I am an aspiring economist motivated by questions of opportunity, inequality, and the institutional forces that shape
+          individual outcomes. My interest in economics grew from a broader curiosity about how people respond to constraints, incentives,
+          and public policy. Over time, that curiosity led me to applied research at the intersection of labor, crime, education, and development.
         </p>
         <p class = "section-intro">
          My academic perspective has also been shaped by a multicultural background and by interests that extend beyond economics alone.
@@ -786,8 +784,8 @@
                       <span class="stack-date">[PT-BR]</span>
                     </div>
                   </div>
-                  <p><a href="https://periodicos.fundaj.gov.br/CIC/article/view/2278" target="_blank" rel="noopener noreferrer">A Evolução Recente da Inteligência Artificial:
-                     implicações trabalhistas, sociais e regulatórias.</a> (with <a href="http://lattes.cnpq.br/3264550612036944" target="_blank" rel="noopener noreferrer">José Paulo Zeetano Chahad</a>). Ciência & Trópico, 48(1), 2024.</p>
+                  <p><a href="https://periodicos.fundaj.gov.br/CIC/article/view/2278" target="_blank" rel="noopener noreferrer">A Evolu&ccedil;&atilde;o Recente da Intelig&ecirc;ncia Artificial:
+                     implica&ccedil;&otilde;es trabalhistas, sociais e regulat&oacute;rias.</a> (with <a href="http://lattes.cnpq.br/3264550612036944" target="_blank" rel="noopener noreferrer">Jos&eacute; Paulo Zeetano Chahad</a>). Ci&ecirc;ncia &amp; Tr&oacute;pico, 48(1), 2024.</p>
                 </article>
                <!-- <article class="stack-item">
                   <div class="stack-top">
@@ -831,9 +829,9 @@
                 <article class="stack-item">
                   <div class="stack-top">
                     <div class="stack-title">The Impacts of Daylight Saving Time on Test Scores in Brazil</div>
-                    <div class="stack-meta">with <a href="https://www.linkedin.com/in/joaopedrobfa/" target="_blank" rel="noopener noreferrer">João Bastos</a>, <a href="https://sites.google.com/view/naercio-menezes-filho/home-page" target="_blank" rel="noopener noreferrer">Naercio Menezes Filho</a>, and <a href="https://www.insper.edu.br/pt/docentes/bruno-kawaoka-komatsu" target="_blank" rel="noopener noreferrer">Bruno Komatsu</a></div>
+                    <div class="stack-meta">with <a href="https://www.linkedin.com/in/joaopedrobfa/" target="_blank" rel="noopener noreferrer">Jo&atilde;o Bastos</a>, <a href="https://sites.google.com/view/naercio-menezes-filho/home-page" target="_blank" rel="noopener noreferrer">Naercio Menezes Filho</a>, and <a href="https://www.insper.edu.br/pt/docentes/bruno-kawaoka-komatsu" target="_blank" rel="noopener noreferrer">Bruno Komatsu</a></div>
                   </div>
-                  <p>Working paper examining the effects of daylight saving time on student performance in Brazil’s main high-stakes standardized exam.</p>
+                  <p>Working paper examining the effects of daylight saving time on student performance in Brazil's main high-stakes standardized exam.</p>
                 </article>
               </div>
             </details>
@@ -857,8 +855,8 @@
                 </article> -->
                 <article class="stack-item">
                   <p class="stack-entry">
-                    <strong><a href="https://jornal.usp.br/artigos/avancos-recentes-da-inteligencia-artificial-impactos-trabalhistas-sociais-e-regulatorios/" target="_blank" rel="noopener noreferrer">Avanços recentes da inteligência artificial: impactos trabalhistas, sociais e regulatórios</a></strong>
-                    <span class="lang-tag">[PT-BR]</span> with José Paulo Zeetano Chahad. <em>Jornal da USP</em>, Feb. 21, 2024.
+                    <strong><a href="https://jornal.usp.br/artigos/avancos-recentes-da-inteligencia-artificial-impactos-trabalhistas-sociais-e-regulatorios/" target="_blank" rel="noopener noreferrer">Avan&ccedil;os recentes da intelig&ecirc;ncia artificial: impactos trabalhistas, sociais e regulat&oacute;rios</a></strong>
+                    <span class="lang-tag">[PT-BR]</span> with Jos&eacute; Paulo Zeetano Chahad. <em>Jornal da USP</em>, Feb. 21, 2024.
                   </p>
                   <p class="stack-description">
                     Overview article on how artificial intelligence is reshaping labor markets, skill demand, inequality, social inclusion, and the broader regulatory debate.
@@ -867,8 +865,8 @@
 
                 <article class="stack-item">
                   <p class="stack-entry">
-                    <strong><a href="https://downloads.fipe.org.br/publicacoes/bif/bif520-15-40.pdf" target="_blank" rel="noopener noreferrer">O Estágio Atual da Inteligência Artificial: História, Impactos no Mercado de Trabalho, Aspectos Sociais e Alternativas de Regulação (Parte I – Aspectos Históricos e Impactos no Mercado de Trabalho)</a></strong>
-                    <span class="lang-tag">[PT-BR]</span> with José Paulo Zeetano Chahad. <em>Informações FIPE</em>, v. 520, Jan. 2024.
+                    <strong><a href="https://downloads.fipe.org.br/publicacoes/bif/bif520-15-40.pdf" target="_blank" rel="noopener noreferrer">O Est&aacute;gio Atual da Intelig&ecirc;ncia Artificial: Hist&oacute;ria, Impactos no Mercado de Trabalho, Aspectos Sociais e Alternativas de Regula&ccedil;&atilde;o (Parte I - Aspectos Hist&oacute;ricos e Impactos no Mercado de Trabalho)</a></strong>
+                    <span class="lang-tag">[PT-BR]</span> with Jos&eacute; Paulo Zeetano Chahad. <em>Informa&ccedil;&otilde;es FIPE</em>, v. 520, Jan. 2024.
                   </p>
                   <p class="stack-description">
                     Review article tracing the historical development of artificial intelligence and examining its effects on employment, job matching, and the evolving demand for skills in the labor market.
@@ -877,8 +875,8 @@
 
                 <article class="stack-item">
                   <p class="stack-entry">
-                    <strong><a href="https://downloads.fipe.org.br/publicacoes/bif/bif521-21-39.pdf" target="_blank" rel="noopener noreferrer">O estágio atual da inteligência artificial: impactos no mercado de trabalho, aspectos sociais e alternativas de regulação (Parte II – aspectos distributivos e alternativas de regulação)</a></strong>
-                    <span class="lang-tag">[PT-BR]</span> with José Paulo Zeetano Chahad. <em>Informações FIPE</em>, v. 521, Feb. 2024.
+                    <strong><a href="https://downloads.fipe.org.br/publicacoes/bif/bif521-21-39.pdf" target="_blank" rel="noopener noreferrer">O est&aacute;gio atual da intelig&ecirc;ncia artificial: impactos no mercado de trabalho, aspectos sociais e alternativas de regula&ccedil;&atilde;o (Parte II - aspectos distributivos e alternativas de regula&ccedil;&atilde;o)</a></strong>
+                    <span class="lang-tag">[PT-BR]</span> with Jos&eacute; Paulo Zeetano Chahad. <em>Informa&ccedil;&otilde;es FIPE</em>, v. 521, Feb. 2024.
                   </p>
                   <p class="stack-description">
                     Review article on the distributive and social consequences of artificial intelligence, with particular attention to regulation, public policy, and the role of collective bargaining in technological transition.
@@ -907,19 +905,19 @@
         <div class="stack">
           <article class="stack-item">
             <div class="stack-top">
-              <div class="stack-title">Teaching Assistant — Econometrics I (Undergraduate)</div>
+              <div class="stack-title">Teaching Assistant - Econometrics I (Undergraduate)</div>
               <div class="stack-date">Spring 2026</div>
             </div>
             <p>
               Undergraduate teaching support for Professor <a href="https://sites.google.com/view/andremancha/home" target="_blank" rel="noopener noreferrer">
-              André Mancha</a>, including leading exercise sessions, introducing R, and assisting with econometrics problem solving during the Spring 2026 semester at FEA-USP.
+              Andr&eacute; Mancha</a>, including leading exercise sessions, introducing R, and assisting with econometrics problem solving during the Spring 2026 semester at FEA-USP.
               Materials are available in the <a href="https://github.com/tuffyli/TA-EAE1221-Econometria-I" target="_blank" rel="noopener noreferrer">Econometrics I GitHub repository</a>.
             </p>
             </article>
 
             <article class="stack-item">
             <div class="stack-top">
-              <div class="stack-title">Teaching Assistant — Microeconomics II (Undergraduate)</div>
+              <div class="stack-title">Teaching Assistant - Microeconomics II (Undergraduate)</div>
               <div class="stack-date">Fall 2025</div>
             </div>
             <p>
@@ -927,8 +925,6 @@
               Felipe Shalders</a>, including exercise sessions, problem-solving guidance, and preparation of supplementary study materials during the Fall 2025 semester.
             </p>
             </article>
-            </p>
-          </article>
         </div>
       </div>
     </section>
@@ -977,8 +973,8 @@
          <div class="card">
             <h3>Website Notes</h3>
             <p>
-              This website is a workin in progress. The content is mostly placeholder text, and the design is intentionally simple to allow for easy customization.
-               If you have suggestions for improvements or want to collaborate on building out the site, please feel free to reach out!
+              This website is a work in progress. Some sections will continue to be updated as my research and teaching portfolio develops.
+              If you have suggestions or would like to collaborate, please feel free to get in touch.
             </p>
           </div> 
         </div>
@@ -988,8 +984,83 @@
 
   <footer>
     <div class="container">
-      © 2026 Tuffy Licciardi Issa. Built for GitHub Pages.
+      &copy; 2026 Tuffy Licciardi Issa. Built for GitHub Pages.
     </div>
   </footer>
+  <script>
+    const accordionItems = document.querySelectorAll(".accordion-item");
+
+    const setAccordionHeight = (item) => {
+      const content = item.querySelector(".accordion-list");
+
+      if (!content) {
+        return;
+      }
+
+      content.style.height = item.open ? content.scrollHeight + "px" : "0px";
+    };
+
+    accordionItems.forEach((item) => {
+      const summary = item.querySelector("summary");
+      const content = item.querySelector(".accordion-list");
+
+      if (!summary || !content) {
+        return;
+      }
+
+      setAccordionHeight(item);
+
+      summary.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const opening = !item.open;
+
+        if (opening) {
+          item.open = true;
+          content.style.height = "0px";
+          requestAnimationFrame(() => {
+            content.style.height = content.scrollHeight + "px";
+          });
+
+          const onOpenTransitionEnd = (transitionEvent) => {
+            if (transitionEvent.propertyName !== "height") {
+              return;
+            }
+
+            content.style.height = "auto";
+            content.removeEventListener("transitionend", onOpenTransitionEnd);
+          };
+
+          content.addEventListener("transitionend", onOpenTransitionEnd);
+          return;
+        }
+
+        content.style.height = content.scrollHeight + "px";
+        requestAnimationFrame(() => {
+          content.style.height = "0px";
+        });
+
+        const onTransitionEnd = (transitionEvent) => {
+          if (transitionEvent.propertyName !== "height") {
+            return;
+          }
+
+          item.open = false;
+          content.removeEventListener("transitionend", onTransitionEnd);
+        };
+
+        content.addEventListener("transitionend", onTransitionEnd);
+      });
+    });
+
+    window.addEventListener("resize", () => {
+      accordionItems.forEach((item) => {
+        if (item.open) {
+          setAccordionHeight(item);
+        }
+      });
+    });
+  </script>
 </body>
 </html>
+
